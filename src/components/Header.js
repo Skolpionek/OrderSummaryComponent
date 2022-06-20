@@ -3,13 +3,13 @@ import '../App.css';
 
 function Header(){
    return (
-      <header>
+      <div>
          <img 
             src={HeaderImg}
             alt=""
             className="HeaderImg"
          />
-      </header>
+      </div>
    )
 }
 export default Header;

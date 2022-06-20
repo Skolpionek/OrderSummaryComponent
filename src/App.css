@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+/*
+######################
+#        Reset       #
+######################
+*/
+   body{
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+   }
+   *,*::after,*::before{
+      box-sizing: border-box;
+   }
+   html{
+      font-size: 16px;
+   }
+/*
+#######################
+#   Utility Classes   #
+#######################
+*/ 
+   /*Colors*/
+      .clr-PaleBlue{color: hsl(225, 100%, 94%);}
+      .clr-BrightBlue{color: hsl(245, 75%, 52%);}
+      .clr-VeryPaleBlue{color: hsl(225, 100%, 98%);}
+      .clr-DesaturatedBlue{color: hsl(224, 23%, 55%);}
+      .clr-DarkBlue{color: hsl(223, 47%, 23%);}
+      .clr-White{color: white;}
+
+      .bg-PaleBlue{background-color: hsl(225, 100%, 94%);}
+      .bg-BrightBlue{background-color: hsl(245, 75%, 52%);}
+      .bg-VeryPaleBlue{background-color: hsl(225, 100%, 98%);}
+      .bg-DesaturatedBlue{background-color: hsl(224, 23%, 55%);}
+      .bg-DarkBlue{background-color: hsl(223, 47%, 23%);}
+      .bg-White{background-color: white;}
+   /*Typo*/
+      .fs-100{font-size: 1rem;}
+      .fs-200{font-size: 1.5rem;}
+      .fs-300{font-size: 2rem;}
+      .fs-400{font-size: 2.5rem;}
+      .fs-500{font-size: 3rem;}
+
+      .fw-500{font-weight: 500;}
+      .fw-700{font-weight: 700;}
+      .fw-900{font-weight: 900;}
+
+      .ff-RedHat{font-family: 'Red Hat Display', sans-serif;}
+   /*Other*/
+      .d-flex{display: flex;}
+      .jcc{justify-content: center;}
+      .aic{align-items: center;}
+      .t-center{text-align: center;}
+      .row{flex-direction: row;}
+      .column{flex-direction: column;}
+      .d-block{display: block;}
+      .m-auto{margin: 0 auto;}
+
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url('./assets/images/pattern-background-desktop.svg');
+   background-size: 150%;
+   background-position: top center;
+   background-repeat: no-repeat;
+   background-color: hsl(225, 100%, 94%);
+}
+.container{
+   width: min-content;
+}
+.content{
+   padding: .5rem 3rem;
+}
