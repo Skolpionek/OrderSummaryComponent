@@ -21,7 +21,7 @@ function Main(){
             <a href="#" className="link fs-100 ff-RedHat">Change</a>
          </div>
          <button className="primary-btn btn bg-BrightBlue fw-700 clr-White d-block fs-100 ff-Redhat">Proceed to Payment</button>
-         <button className="btn bg-White clr-DesaturatedBlue fw-700 d-block fs-100 ff-Redhat">Cancel Order</button>
+         <button className="secondary-btn btn bg-White clr-DesaturatedBlue fw-700 d-block fs-100 ff-Redhat">Cancel Order</button>
       </main>
    )
 }
