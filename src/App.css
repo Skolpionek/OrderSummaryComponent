@@ -56,6 +56,11 @@
       .d-block{display: block;}
       .m-auto{margin: 0 auto;}
 
+/*
+#######################
+#       Styling       #
+#######################
+*/
 
 body{
    display: flex;
@@ -69,7 +74,51 @@ body{
 }
 .container{
    width: min-content;
+   box-shadow: 0px 20px 20px 0px hsl(225, 31%, 81%);
+   border-radius: 1rem;
 }
 .content{
-   padding: .5rem 3rem;
+   
+   padding: 2.5rem 3rem;
+   gap: 1rem;
+   border-radius: 0 0 1rem 1rem;
+}
+.HeaderImg{
+   border-radius:1rem 1rem  0 0;
+}
+.title, .text-content{
+   margin: 0;
+}
+.items{
+   gap: 1rem;
+   padding-inline: 1.5rem;
+   margin-block: 1.25rem;
+}
+.items > div{
+   margin-right: auto;
+   gap: .1rem;
+}
+.items > div > *{
+   margin: 0;
+   
+}
+.btn{
+   width: 100%;
+   padding-block: .5rem;
+   border: 0;
+   border-radius: .5rem;
+   cursor: pointer;
+}
+.primary-btn{
+      box-shadow: 0px 8px 7px 0px hsl(224, 23%, 55%);
+}
+.attribution{
+   position: fixed;
+   bottom: 10px;
+   left: 0;
+   right: 0;
+   text-align: center;
+}
+.attribution a{
+   color: blue;
 }
