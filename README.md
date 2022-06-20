@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL here](https://your-solution-url.com)
-- Live Site URL: [site URL here](https://your-live-site-url.com)
+- Solution URL: [URL here](https://www.frontendmentor.io/solutions/order-summary-component-e_l0OSmI_8)
+- Live Site URL: [site URL here](https://order-summary-component-op.netlify.app/)
 
 ## My process
 
