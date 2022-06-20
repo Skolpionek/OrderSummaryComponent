@@ -132,3 +132,23 @@ body{
 .secondary-btn:hover{
    color: hsl(223, 47%, 23%);
 }
+@media screen and (max-width: 600px) {
+   body{
+      background-image: url('./assets/images/pattern-background-mobile.svg');
+      background-size: 150%;
+      background-position: top center;
+      background-repeat: no-repeat;
+   }
+   .container{
+      width:337.5px;
+   }
+   
+   .content{
+      padding: 1.75rem 3rem;
+   }
+   .items{
+      padding: 0;
+   }
+   .fs-100{font-size: .85rem;}
+   .fs-300{font-size: 1.5rem;}
+ }
